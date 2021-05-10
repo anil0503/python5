@@ -1,21 +1,10 @@
-# Prints list of random items of
-# length 3 from the given list.
-list1 = [1, 2, 3, 4, 5, 6]
-print("With list:", random.sample(list1, 3))
+# This program adds two numbers
 
-# Prints list of random items of
-# length 4 from the given string.
-string = "GeeksforGeeks"
-print("With string:", random.sample(string, 4))
+num1 = 1.5
+num2 = 6.3
 
-# Prints list of random items of
-# length 4 from the given tuple.
-tuple1 = ("ankit", "geeks", "computer", "science",
-				"portal", "scientist", "btech")
-print("With tuple:", random.sample(tuple1, 4))
+# Add two numbers
+sum = num1 + num2
 
-
-# Prints list of random items of
-# length 3 from the given set.
-set1 = {"a", "b", "c", "d", "e"}
-print("With set:", random.sample(set1, 3))
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
